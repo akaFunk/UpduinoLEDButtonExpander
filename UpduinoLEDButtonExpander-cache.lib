@@ -106,11 +106,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push_Dual
+# UpduinoLEDButtonExpander_SW_Push_Dual
 #
-DEF Switch_SW_Push_Dual SW 0 40 Y N 1 F N
+DEF UpduinoLEDButtonExpander_SW_Push_Dual SW 0 40 Y N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push_Dual" 0 -270 50 H V C CNN
+F1 "UpduinoLEDButtonExpander_SW_Push_Dual" 0 -270 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -127,8 +127,8 @@ P 2 0 1 0 0 50 0 120 N
 P 2 0 1 0 100 -150 -100 -150 N
 P 2 0 1 0 100 50 -100 50 N
 X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
-X 3 3 -200 -200 100 R 50 50 0 1 P
+X 2 2 -200 -200 100 R 50 50 0 1 P
+X 3 3 200 0 100 L 50 50 0 1 P
 X 4 4 200 -200 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF

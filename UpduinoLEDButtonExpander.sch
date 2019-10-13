@@ -112,18 +112,6 @@ F 4 " RS-03K221JT" H 4250 3850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW1
-U 1 1 5D8C10AD
-P 4200 5300
-F 0 "SW1" H 4200 5585 50  0000 C CNN
-F 1 "BTN" H 4200 5494 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4200 5500 50  0001 C CNN
-F 3 "~" H 4200 5500 50  0001 C CNN
-F 4 "K2-1102DP-C4SW-04" H 4200 5300 50  0001 C CNN "MPN"
-	1    4200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5D8C3FF3
 P 3900 5600
@@ -283,18 +271,6 @@ F 4 " RS-03K221JT" H 5750 3850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW2
-U 1 1 5D941202
-P 5700 5300
-F 0 "SW2" H 5700 5585 50  0000 C CNN
-F 1 "BTN" H 5700 5494 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5700 5500 50  0001 C CNN
-F 3 "~" H 5700 5500 50  0001 C CNN
-F 4 "K2-1102DP-C4SW-04" H 5700 5300 50  0001 C CNN "MPN"
-	1    5700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 5D941208
 P 5400 5600
@@ -410,18 +386,6 @@ F 4 " RS-03K221JT" H 7250 3850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW3
-U 1 1 5D94394A
-P 7200 5300
-F 0 "SW3" H 7200 5585 50  0000 C CNN
-F 1 "BTN" H 7200 5494 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 7200 5500 50  0001 C CNN
-F 3 "~" H 7200 5500 50  0001 C CNN
-F 4 "K2-1102DP-C4SW-04" H 7200 5300 50  0001 C CNN "MPN"
-	1    7200 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR09
 U 1 1 5D943950
 P 6900 5600
@@ -534,18 +498,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 3850 50  0
 F 3 "~" H 8750 3850 50  0001 C CNN
 F 4 " RS-03K221JT" H 8750 3850 50  0001 C CNN "MPN"
 	1    8750 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW4
-U 1 1 5D944F92
-P 8700 5300
-F 0 "SW4" H 8700 5585 50  0000 C CNN
-F 1 "BTN" H 8700 5494 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 8700 5500 50  0001 C CNN
-F 3 "~" H 8700 5500 50  0001 C CNN
-F 4 "K2-1102DP-C4SW-04" H 8700 5300 50  0001 C CNN "MPN"
-	1    8700 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -776,4 +728,48 @@ Wire Wire Line
 Connection ~ 9000 5400
 Wire Wire Line
 	9000 5400 9000 5300
+$Comp
+L UpduinoLEDButtonExpander:SW_Push_Dual SW1
+U 1 1 5DA46FF8
+P 4200 5300
+F 0 "SW1" H 4200 5585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 4200 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 4200 5500 50  0001 C CNN
+F 3 "~" H 4200 5500 50  0001 C CNN
+	1    4200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UpduinoLEDButtonExpander:SW_Push_Dual SW2
+U 1 1 5DA47B4F
+P 5700 5300
+F 0 "SW2" H 5700 5585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 5700 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 5700 5500 50  0001 C CNN
+F 3 "~" H 5700 5500 50  0001 C CNN
+	1    5700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UpduinoLEDButtonExpander:SW_Push_Dual SW3
+U 1 1 5DA483E6
+P 7200 5300
+F 0 "SW3" H 7200 5585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7200 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 7200 5500 50  0001 C CNN
+F 3 "~" H 7200 5500 50  0001 C CNN
+	1    7200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L UpduinoLEDButtonExpander:SW_Push_Dual SW4
+U 1 1 5DA48C7E
+P 8700 5300
+F 0 "SW4" H 8700 5585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 8700 5494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 8700 5500 50  0001 C CNN
+F 3 "~" H 8700 5500 50  0001 C CNN
+	1    8700 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
